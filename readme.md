@@ -89,19 +89,8 @@ Or you can perform both steps in one command using searchAddress
 
 In the example above, it will automatically search for locId LOC000125851254.
 
-## Tests
-The following 8 scenarios have been tested.  If you believe there are more, or find someway for it to return other data, please let me know.
-### getLocId
-* Finds a single address
-* Finds multiple addresses
-* Unable to find the address
-### searchLocId
-* Finds the locId
-* Does not find the locId
-### searchAddress
-* Finds a single address (and searches for it)
-* Finds multiple addresses (and searches for the first match)
-* Unable to find the address
+## Quick Testing
+Included is a dockerfile which can allow quick testing without installing Python.  There is also *run.ps1* which will build and execute the dockerfile.
 
 ## Authors
 * **Brendan Evans** - [BrendanEvans](https://github.com/brendanevans)

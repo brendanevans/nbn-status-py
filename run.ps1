@@ -1,2 +1,2 @@
-docker build -t nbn-checker .
-docker run -rm -it nbn-checker
+docker build -t nbn-status-py .
+docker run -rm -it nbn-status-py
